@@ -1,102 +1,30 @@
 <!doctype html>
-<html lang="zh-Hans">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>特典会帳 · 隐私政策 Privacy Policy</title>
+<title>特典会帳 · Privacy Policy</title>
 <style>
-  :root { --bg: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #e5e5ea; --accent: #d93a2b; }
+  :root { --bg: #ffffff; --text: #1d1d1f; --line: #d2d2d7; --button: #f5f5f7; }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #000000; --text: #f5f5f7; --muted: #a1a1a6; --line: #2c2c2e; --accent: #ff6b5b; }
+    :root { --bg: #000000; --text: #f5f5f7; --line: #3a3a3c; --button: #1c1c1e; }
   }
   body { background: var(--bg); color: var(--text); margin: 0;
-         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
-  h1 { font-size: 28px; margin: 0 0 4px; }
-  h2 { font-size: 20px; margin: 32px 0 8px; }
-  .date { color: var(--muted); margin: 0 0 24px; }
-  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
-  a { color: var(--accent); }
-  nav a { margin-right: 16px; }
+         font: 20px/1.4 -apple-system, BlinkMacSystemFont, "PingFang SC", "PingFang TC", "Hiragino Sans", "Helvetica Neue", sans-serif; }
+  main { min-height: 100vh; min-height: 100svh; box-sizing: border-box; padding: 32px 16px;
+         display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 16px; }
+  a { display: block; box-sizing: border-box; width: 100%; max-width: 320px; padding: 16px;
+      border: 1px solid var(--line); border-radius: 14px; background: var(--button);
+      color: var(--text); text-align: center; text-decoration: none; }
+  a:hover, a:focus-visible { border-color: var(--text); }
 </style>
 </head>
 <body>
 <main>
-<nav><a href="#zh">中文</a><a href="#en">English</a></nav>
-
-<section id="zh" lang="zh-Hans">
-<h1>特典会帳 隐私政策</h1>
-<p class="date">更新于 2026 年 10 月 19 日</p>
-
-<p>特典会帳 是一个 iPhone app，用来记录你去的活动、拍的切和花的钱。我们不收集你的任何数据。</p>
-
-<h2>我们收集什么</h2>
-<p>什么都不收集。没有账号，没有统计分析，没有广告，没有追踪，我们也没有自己的服务器。你的记录我们看不到。</p>
-<p>只有两样东西可能从 app 以外到我们这里。如果你在 iPhone 的 设置 里选择与 App 开发者共享分析数据，Apple 可能会把崩溃报告发给我们，里面没有你的名字和记录。如果你给我们发邮件，我们会收到你的邮箱地址和邮件，只用来回复你。</p>
-
-<h2>你的记录存在哪里</h2>
-<ul>
-  <li><strong>你的设备上。</strong>所有记录和照片都存在你的 iPhone（或 Mac）里。</li>
-  <li><strong>你自己的 iCloud 里</strong>，如果你在 app 的 设置 → 同步 里打开了它。记录存在你的 Apple 账户的私人 iCloud 空间里，只有你能读取，我们读不到。传到 iCloud 的内容是加密的。</li>
-  <li><strong>你导出的备份文件</strong>，在你自己放的地方。</li>
-</ul>
-
-<h2>照片、相机和照片图库</h2>
-<p>你给切拍照或选照片时，app 会把照片复制一份存起来，不带拍摄地点。相机只在你拍照时使用。照片图库只在你点"查看原图"或"保存到相册"时才用，而且要你先允许。你分享的照片，会去你选的地方。你可以随时在 iPhone 的 设置 里更改。</p>
-
-<h2>链接</h2>
-<p>你添加的链接，比如购票链接，会在 Safari 里打开；那些网站有它们自己的隐私政策。</p>
-
-<h2>删除你的数据</h2>
-<p>删除 app，设备上的记录就会删掉。iCloud 里的那一份：在 iPhone 的 设置 里，进入你的 Apple 账户 → iCloud → 管理储存空间，选 特典会帳，删除它的数据。删除前，可以先在 app 里 导出备份。</p>
-
-<h2>儿童</h2>
-<p>app 不收集任何人的数据，包括儿童。</p>
-
-<h2>这份政策的更改</h2>
-<p>如果有更改，我们会更新这一页和上面的日期。</p>
-
-<h2>联系我们</h2>
-<p><a href="mailto:kl.autonomous@gmail.com">kl.autonomous@gmail.com</a></p>
-</section>
-
-<hr>
-
-<section id="en" lang="en">
-<h1>Tokutenkai-cho Privacy Policy</h1>
-<p class="date">Updated October 19, 2026</p>
-
-<p>Tokutenkai-cho (特典会帳) is an iPhone app for logging the events you go to, the cheki you take and what you spend. We collect no data about you.</p>
-
-<h2>What we collect</h2>
-<p>Nothing. There's no account, no analytics, no ads, no tracking, and no server of our own. We can't see your records.</p>
-<p>Two things can reach us from outside the app. If you choose to share analytics with app developers in your iPhone's settings, Apple may send us crash reports, without your name or records. If you email us, we get your email address and message, used only to answer you.</p>
-
-<h2>Where your records are</h2>
-<ul>
-  <li><strong>On your device.</strong> Every record and photo is stored on your iPhone (or Mac).</li>
-  <li><strong>In your own iCloud</strong>, if you switch it on in the app's Settings → Sync. Your records are kept in the private iCloud space of your Apple Account, which only you can read; we can't. What goes to iCloud is encrypted.</li>
-  <li><strong>In backup files you export</strong>, wherever you put them.</li>
-</ul>
-
-<h2>Photos, the camera and the photo library</h2>
-<p>When you take or choose a photo of a cheki, the app keeps its own copy, without the place it was taken. The camera is used only when you take a photo. The photo library is used only when you tap "View original" or "Save to Photos", and only after you allow it. A photo you share goes where you send it. You can change either in the iPhone's Settings at any time.</p>
-
-<h2>Links</h2>
-<p>Links you add, such as a ticket link, open in Safari; those websites have their own policies.</p>
-
-<h2>Deleting your data</h2>
-<p>Deleting the app deletes the records on that device. For the copy in iCloud: in the iPhone's Settings, open your Apple Account → iCloud → Manage Storage, choose Tokutenkai-cho and delete its data. You can export a backup from the app first.</p>
-
-<h2>Children</h2>
-<p>The app collects no data from anyone, children included.</p>
-
-<h2>Changes to this policy</h2>
-<p>If anything changes, we'll update this page and the date above.</p>
-
-<h2>Contact</h2>
-<p><a href="mailto:kl.autonomous@gmail.com">kl.autonomous@gmail.com</a></p>
-</section>
+<a href="privacy-zh-hans.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+<a href="privacy-zh-hant.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a>
+<a href="privacy-en.html" lang="en" hreflang="en">English</a>
+<a href="privacy-ja.html" lang="ja" hreflang="ja">日本語</a>
 </main>
 </body>
 </html>

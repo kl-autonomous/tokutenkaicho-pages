@@ -1,81 +1,30 @@
 <!doctype html>
-<html lang="zh-Hans">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>特典会帳 · 帮助 Support</title>
+<title>特典会帳 · Support</title>
 <style>
-  :root { --bg: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #e5e5ea; --accent: #d93a2b; }
+  :root { --bg: #ffffff; --text: #1d1d1f; --line: #d2d2d7; --button: #f5f5f7; }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #000000; --text: #f5f5f7; --muted: #a1a1a6; --line: #2c2c2e; --accent: #ff6b5b; }
+    :root { --bg: #000000; --text: #f5f5f7; --line: #3a3a3c; --button: #1c1c1e; }
   }
   body { background: var(--bg); color: var(--text); margin: 0;
-         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
-  h1 { font-size: 28px; margin: 0 0 16px; }
-  h2 { font-size: 20px; margin: 32px 0 8px; }
-  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
-  a { color: var(--accent); }
-  nav a { margin-right: 16px; }
+         font: 20px/1.4 -apple-system, BlinkMacSystemFont, "PingFang SC", "PingFang TC", "Hiragino Sans", "Helvetica Neue", sans-serif; }
+  main { min-height: 100vh; min-height: 100svh; box-sizing: border-box; padding: 32px 16px;
+         display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 16px; }
+  a { display: block; box-sizing: border-box; width: 100%; max-width: 320px; padding: 16px;
+      border: 1px solid var(--line); border-radius: 14px; background: var(--button);
+      color: var(--text); text-align: center; text-decoration: none; }
+  a:hover, a:focus-visible { border-color: var(--text); }
 </style>
 </head>
 <body>
 <main>
-<nav><a href="#zh">中文</a><a href="#en">English</a></nav>
-
-<section id="zh" lang="zh-Hans">
-<h1>特典会帳 帮助</h1>
-<p>特典会帳 是给地下偶像粉丝的记账本：活动、切和花费。需要 iOS 26 或更新版本。</p>
-
-<h2>怎么记一笔切？</h2>
-<p>点底部的 ＋，选偶像，加张数，点 保存。新的活动会自动建好；要改日期、门票或别的，点 更多…。</p>
-
-<h2>怎么备份？</h2>
-<p>设置 → 导出备份，把文件存到"文件"、电脑或你想放的地方。设置 → 导入备份 可以把它放回来。app 每天也会在设备上留一份副本。</p>
-
-<h2>换新手机怎么办？</h2>
-<p>在旧手机上打开 设置 → 同步，等它显示"上次同步"、没有剩下要上传的。在新手机上用同一个 Apple 账户，打开 app，开始使用，打开同步，所有记录和照片会从 iCloud 下载回来。也可以用导出的备份文件导入。</p>
-
-<h2>从网页版搬过来</h2>
-<p>在网页版导出文件，然后在 app 里 设置 → 从网页版导入。</p>
-
-<h2>在 iPhone 和 Mac 上一起用</h2>
-<p>每台设备登录同一个 Apple 账户，在 app 的 设置 → 同步 里各自打开同步。记录和照片会在这几台设备之间同步。Mac 需要 Apple 芯片。</p>
-
-<h2>隐私</h2>
-<p>记录只存在你的设备和你自己的 iCloud 里。没有账号，没有追踪，没有广告。详见<a href="privacy.html">隐私政策</a>。</p>
-
-<h2>联系我们</h2>
-<p><a href="mailto:kl.autonomous@gmail.com">kl.autonomous@gmail.com</a>：请写上 iPhone 型号、iOS 版本，和在哪个页面遇到的问题，附上截图更好。</p>
-</section>
-
-<hr>
-
-<section id="en" lang="en">
-<h1>Tokutenkai-cho Support</h1>
-<p>Tokutenkai-cho (特典会帳) is a logbook for underground-idol fans: events, cheki and spending. It needs iOS 26 or later.</p>
-
-<h2>How do I log a cheki?</h2>
-<p>Tap + at the bottom, pick the idol, add the count, and tap Save. A new event is made for you; tap More… to change its date, ticket or anything else.</p>
-
-<h2>How do I back up?</h2>
-<p>Settings → Export backup saves one file to Files, a computer or wherever you like. Settings → Import backup brings it back. The app also keeps a daily copy on the device.</p>
-
-<h2>Moving to a new phone</h2>
-<p>On the old phone, open Settings → Sync and wait until it shows when it last synced, with nothing left to upload. On the new phone, signed in to the same Apple Account, open the app, start, and switch sync on: your records and photos come back from iCloud. Importing an exported backup works too.</p>
-
-<h2>Coming from the web version</h2>
-<p>Export a file from the web version, then use Settings → Import from the web version in the app.</p>
-
-<h2>Using it on an iPhone and a Mac</h2>
-<p>Sign each device in to the same Apple Account, and switch sync on in the app's Settings → Sync on each one. Your records and photos then sync between them. A Mac needs Apple silicon.</p>
-
-<h2>Privacy</h2>
-<p>Your records stay on your devices and in your own iCloud. No account, no tracking, no ads. See the <a href="privacy.html">privacy policy</a>.</p>
-
-<h2>Contact</h2>
-<p><a href="mailto:kl.autonomous@gmail.com">kl.autonomous@gmail.com</a>. Please include your iPhone model, iOS version and the screen where it happened; a screenshot helps.</p>
-</section>
+<a href="support-zh-hans.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+<a href="support-zh-hant.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a>
+<a href="support-en.html" lang="en" hreflang="en">English</a>
+<a href="support-ja.html" lang="ja" hreflang="ja">日本語</a>
 </main>
 </body>
 </html>
